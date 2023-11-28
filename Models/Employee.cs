@@ -7,17 +7,17 @@ namespace WEB_API_With_Stored_Procedure.Models
 {
     public class Employee
     {   
-        public int Id { get; set; }
+       // public int Id { get; set; }
 
         public string Name { get; set; }
 
-        public string MailId { get; set; }
+        public string Email_ID { get; set; }
 
-        public DateTime BookingDate { get; set; }
+        public DateTime? Booking_Date { get; set; }
 
-        public string EventName { get; set; }
+        public string Event_Name { get; set; }
 
-        public DateTime EventDate { get; set; }
+        public DateTime? Event_Date { get; set; }
         
         public string Gender { get; set; }
 
